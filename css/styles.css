@@ -2,8 +2,13 @@ body {
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   margin-top: 30px;
 }
-h1 {
+h1,
+h4,
+p {
   text-align: center;
+}
+p {
+  line-height: 150%;
 }
 .internal-link {
   border: 1px solid black;
@@ -18,7 +23,13 @@ h1 {
 .internal-link:hover {
   background: #ebedee;
 }
-
+.external-link {
+  text-decoration: none;
+  transition: 100ms ease;
+}
+.external-link:hover {
+  font-size: x-large;
+}
 .croissants-pic {
   max-width: 35%;
   height: auto;
