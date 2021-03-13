@@ -29,7 +29,7 @@ p {
   transition: 100ms ease;
 }
 .external-link:hover {
-  font-size: x-large;
+  font-size: 2em;
 }
 .croissants-pic {
   max-width: 35%;
@@ -39,4 +39,15 @@ p {
   border: 3px solid #fcfafa;
   border-radius: 5px;
   box-shadow: 5px 10px 10px darkgrey;
+}
+.onomatopoeia {
+  font-size: 2em;
+}
+.false-h1 {
+  font-size: 1.5em;
+}
+
+.decorative-emoji {
+  font-size: 2em;
+  text-align: center;
 }
